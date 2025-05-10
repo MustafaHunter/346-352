@@ -1,0 +1,8 @@
+After testing, we have observed that the linear recursion is more efficient since it has a time complexity
+of O(n) and that it calculates the oddonacci numbers by summing the preceeding three numbers which is very
+helpful in avoiding redundant calculations. Adding more inputs doesn't impact it much. However, the multiple recursion
+is a problem because it has a bottleneck, that it tends to recalculate numbers again which causes the time 
+complexity to become exponential or O(n^3) and therefore the runtime becomes very long.
+Even when comparing the test results, we notice that the numbers for multiple recursion are much bigger than the linear ones. 
+
+
